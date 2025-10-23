@@ -1,3 +1,7 @@
+---
+description: List all open pull requests in the current repository."
+---
+
 # Bug Fix Command
 
 ## Overview

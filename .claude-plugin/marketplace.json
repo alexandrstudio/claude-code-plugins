@@ -11,20 +11,12 @@
     },
     "plugins": [
         {
-            "name": "webdev",
-            "source": "plugins/webdev",
+            "name": "website-dev",
+            "source": "./plugins/website-dev",
             "description": "Marketplace for web development projects",
             "version": "1.0.0",
-            "license": "MIT",
-            "category": "web architect",
-            "keywords": ["web", "architect", "documentation"],
-            "commands": [
-                "commands/cc/bug-fix.md",
-                "commands/cc/impl.md",
-                "commands/cc/pr-list.md",
-                "commands/cc/split-task.md",
-                "commands/cc/update-doc.md"
-            ]
+            "category": "web design",
+            "keywords": ["web", "design", "documentation"]
         }
     ]
 }

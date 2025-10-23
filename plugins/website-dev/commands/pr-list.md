@@ -1,3 +1,7 @@
+---
+description: List all open pull requests in the current repository.
+---
+
 ## PR List
 
 Display a prioritized list of open PRs in the current repository.
