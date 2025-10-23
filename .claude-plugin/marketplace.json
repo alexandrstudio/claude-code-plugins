@@ -1,5 +1,5 @@
 {
-    "name": "",
+    "name": "web-dev-marketplace",
     "owner": {
         "name": "Alexander Sedeke",
         "email": "alexandr.studio@pm.me",
@@ -12,7 +12,7 @@
     "plugins": [
         {
             "name": "webdev",
-            "source": ".plugins/webdev",
+            "source": "./plugins/webdev",
             "decription": "Marketplace for web development projects",
             "version": "1.0.0",
             "category": "web architect",
