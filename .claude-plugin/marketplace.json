@@ -12,9 +12,10 @@
     "plugins": [
         {
             "name": "webdev",
-            "source": "./plugins/webdev",
-            "decription": "Marketplace for web development projects",
+            "source": "./",
+            "description": "Marketplace for web development projects",
             "version": "1.0.0",
+            "license": "MIT",
             "category": "web architect",
             "keywords": ["web", "architect", "documenation"]
         }
