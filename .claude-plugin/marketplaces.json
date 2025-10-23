@@ -1,0 +1,22 @@
+{
+    "name": "",
+    "owner": {
+        "name": "Alexander Sedeke",
+        "email": "alexandr.studio@pm.me",
+        "url": "https://alexandr.studio/"
+    },
+    "metadata": {
+        "description": "Marketplaces for people wanting to have AI support on building awesome projects",
+        "version": "1.0.0"
+    },
+    "plugins": [
+        {
+            "name": "webdev",
+            "source": ".plugins/webdev",
+            "decription": "Marketplace for web development projects",
+            "version": "1.0.0",
+            "category": "web architect",
+            "keywords": ["web", "architect", "documenation"]
+        }
+    ]
+}

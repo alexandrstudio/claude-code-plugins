@@ -1,0 +1,9 @@
+{
+    "name": "webdev",
+    "description": "Marketplace for web development projects",
+    "version": "1.0.0",
+    "author": {
+        "name": "Alexander Sedeke",
+        "email": "alexandr.studio@pm.me"
+    }
+}
