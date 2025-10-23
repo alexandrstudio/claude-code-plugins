@@ -17,7 +17,14 @@
             "version": "1.0.0",
             "license": "MIT",
             "category": "web architect",
-            "keywords": ["web", "architect", "documenation"]
+            "keywords": ["web", "architect", "documenation"],
+            "commands": [
+                "./plugins/webdev/commands/cc/bug-fix.md",
+                "./plugins/webdev/commands/cc/impl.md",
+                "./plugins/webdev/commands/cc/pr-list.md",
+                "./plugins/webdev/commands/cc/split-task.md",
+                "./plugins/webdev/commands/cc/update-doc.md"
+            ]
         }
     ]
 }
