@@ -12,18 +12,18 @@
     "plugins": [
         {
             "name": "webdev",
-            "source": "./",
+            "source": "plugins/webdev",
             "description": "Marketplace for web development projects",
             "version": "1.0.0",
             "license": "MIT",
             "category": "web architect",
-            "keywords": ["web", "architect", "documenation"],
+            "keywords": ["web", "architect", "documentation"],
             "commands": [
-                "./plugins/webdev/commands/cc/bug-fix.md",
-                "./plugins/webdev/commands/cc/impl.md",
-                "./plugins/webdev/commands/cc/pr-list.md",
-                "./plugins/webdev/commands/cc/split-task.md",
-                "./plugins/webdev/commands/cc/update-doc.md"
+                "commands/cc/bug-fix.md",
+                "commands/cc/impl.md",
+                "commands/cc/pr-list.md",
+                "commands/cc/split-task.md",
+                "commands/cc/update-doc.md"
             ]
         }
     ]
