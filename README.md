@@ -28,6 +28,7 @@ This repository provides helpfull links and tools:
 - **[AI Catalaog](./AI-Catalogs.md)** A structured index of the major AI ecosystems - from open model registries and app directories to agent frameworks, hosting infrastructures, and emerging interoperability standards.
 - **[TOON - JSON for AI](./TOON.md)** TOON is a lightweight, indentation-based data format designed as a token-efficient, LLM-optimized alternative to JSON that reduces redundancy and lowers processing costs while remaining human-readable.
 - **[Template for Better Prompt](./Better-Prompt.md)** Structured Markdown template designed to help users create clear, complete, and deterministic AI task requests by defining purpose, inputs, outputs, tone, and constraints
+- **[Custom Statusline](./statusline/statusline.md)** A custom statusline script
 
 A plugin marketplace for **Claude Code** that enhances developer productivity through:
 
