@@ -1,4 +1,4 @@
-# Claude Code Plugins - Web Development Marketplace
+# Claude Code Plugins And Helpers
 
 A comprehensive Claude Code plugin marketplace for AI-assisted full-stack web development using the **Kiro specification-driven methodology**.
 
@@ -22,7 +22,14 @@ A comprehensive Claude Code plugin marketplace for AI-assisted full-stack web de
 
 ## 🎯 Overview
 
-This repository provides a plugin marketplace for **Claude Code** that enhances developer productivity through:
+This repository provides helpfull links and tools:
+
+- **[AI Tool Overview](./AI-Base-Link-List.md)** A curated overview of the modern AI tooling ecosystem - from intelligent code editors and command-line assistants to local model hosts, self-hosted chat interfaces, and the emerging MCP protocol infrastructure that connects them.
+- **[AI Catalaog](./AI-Catalogs.md)** A structured index of the major AI ecosystems - from open model registries and app directories to agent frameworks, hosting infrastructures, and emerging interoperability standards.
+- **[TOON - JSON for AI](./TOON.md)** TOON is a lightweight, indentation-based data format designed as a token-efficient, LLM-optimized alternative to JSON that reduces redundancy and lowers processing costs while remaining human-readable.
+- **[Template for Better Prompt](./Better-Prompt.md)** Structured Markdown template designed to help users create clear, complete, and deterministic AI task requests by defining purpose, inputs, outputs, tone, and constraints
+
+A plugin marketplace for **Claude Code** that enhances developer productivity through:
 
 - **AI-Powered Development Workflow**: Structured methodology for requirements → design → implementation → review
 - **Full-Stack Support**: Frontend (React, Next.js, TypeScript), Backend (Python, FastAPI), and AI Integration (Vercel AI SDK v5)
@@ -184,6 +191,9 @@ Located in `plugins/webdev/commands/cc/`:
 - **Input**: Code changes or files to document
 - **Output**: Updated documentation
 
+#### 6. **convetional-commit.md** - Create Convetional Commits
+- **Purpose**: Draft Conventional Commits message from staged diff, confirm, commit, optional push.
+
 ## 🔧 Git Hooks
 
 Automated scripts that run during git operations to enforce standards.
@@ -210,7 +220,7 @@ Located in `plugins/webdev/hooks/`:
 ### 3. **check_ai_commit.sh** (Executable)
 - **When**: Pre-commit hook
 - **Function**: Validate commit messages
-- **Note**: ⚠️ See [Known Issues](#known-issues--fixes) - Git hook conflict exists
+- **Note**: See [Known Issues](#known-issues--fixes) - Git hook conflict exists
 - **Current Logic**: Blocks commits with AI signature emoji
 
 ## 🚀 Installation & Setup
@@ -245,7 +255,7 @@ Located in `plugins/webdev/hooks/`:
    cat .claude/settings.local.json
    ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### Marketplace Configuration (`.claude-plugin/marketplaces.json`)
 
@@ -306,7 +316,7 @@ Controls which operations are allowed:
 }
 ```
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Example 1: Implement a New Feature Using Kiro Workflow
 
@@ -357,7 +367,7 @@ The agent will:
 3. Update docs to match implementation
 4. Validate completeness
 
-## ⚠️ Known Issues & Fixes
+## Known Issues & Fixes
 
 ### Critical Issues
 
@@ -521,7 +531,7 @@ To improve this plugin marketplace:
 
 ## 📄 License
 
-[License information to be added]
+MIT
 
 ---
 
